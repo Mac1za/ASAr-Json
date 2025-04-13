@@ -1,103 +1,75 @@
 {
-    "WBUI2":
-    {
-        "settings":
-        {
-            "openbutton": 3,
-            "hideicon": false,
-            "hideiconafter": 360,
-            "iconurl": "https://imgur.com/a/9AKPBoF.png",
-            "disableicontext": false,
-            "iconposition": 0,
-            "icontextcolor": 0,
-            "openonstart": true,
-            "openonstartonlynewplayers": true,
-            "updateinterval": 24
-        },
-        "tabs": [
-            {
-                "layout": 1,
-                "buttontext": "<RichColor Color=\"1,0,0,1\">1 Box layout</>",
-                "imageurl": "https://imgur.com/a/9AKPBoF.png",
-                "content": [
-                    {
-                        "title": "Welcome to WBUI2!",
-                        "text": "Your text could be here.\n\nBTW, you can add as many tabs/links as you want, just follow the syntax... Until it doesnt fit anymore\n\nCheckout the available predefined colors and the syntax for a colorized and bigger letters for the general text:\n\n<TextStyle.LightBlue><TextStyle.LightBlue>LightBlue Text</></>\n<TextStyle.Red><TextStyle.Red>Red Text</></>\n<TextStyle.Green><TextStyle.Green>Green Text</></>\n<TextStyle.Blue><TextStyle.Blue>Blue Text</></>\n<TextStyle.Yellow><TextStyle.Yellow>Yellow Text</></>\n<TextStyle.Orange><TextStyle.Orange>Orange Text</></>\n<TextStyle.Violet><TextStyle.Violet>Violet Text</></>\n<TextStyle.White><TextStyle.White>White Text</></>\n<TextStyle.Black><TextStyle.Black>Black Text</></> < Yes its Black Text on a Black background\n\nYou can use the ARKML syntax to colorize the titles, normal text and button texts. ARKML uses RGBA values to define the colors. Here are some examples:\n\n<RichColor Color=\"1,0,0,1\"><RichColor Color=\"1,0,0,1\">Red Text</></>\n<RichColor Color=\"0,1,0,1\"><RichColor Color=\"0,1,0,1\">Green Text</></>\n\nPlease keep in mind that you <TextStyle.Red>NEED TO</> unescape the doublequotes with a backslash!!!"
-                    }
-                ]
-            },
-            {
-                "layout": 2,
-                "buttontext": "2 Box layout",
-                "imageurl": "https://i.imgur.com/mGt3cAF.png",
-                "content": [
-                    {
-                        "title": "Left title",
-                        "text": "This text goes into the left box"
-                    },
-                    {
-                        "title": "Right title",
-                        "text": "This text goes into the right box"
-                    }
-                ]
-            },
-            {
-                "layout": 3,
-                "buttontext": "3 Box layout",
-                "imageurl": "https://i.imgur.com/mGt3cAF.png",
-                "content": [
-                    {
-                        "title": "Left title",
-                        "text": "This text goes into the left box"
-                    },
-                    {
-                        "title": "Top right title",
-                        "text": "This text goes into the top right box"
-                    },
-                    {
-                        "title": "Bottom right title",
-                        "text": "This text goes into the bottom right box"
-                    }
-                ]
-            },
-            {
-                "layout": 4,
-                "buttontext": "4 Box layout",
-                "imageurl": "https://i.imgur.com/mGt3cAF.png",
-                "content": [
-                    {
-                        "title": "Top left title",
-                        "text": "<TextStyle.Orange>This text goes into the top left box</>"
-                    },
-                    {
-                        "title": "<TextStyle.Green>Top right title</>",
-                        "text": "<TextStyle.Violet>This text goes into the top right box</>"
-                    },
-                    {
-                        "title": "<TextStyle.Blue>Bottom left title</>",
-                        "text": "<TextStyle.Red>This text goes into the bottom left box</>"
-                    },
-                    {
-                        "title": "<TextStyle.Yellow>Bottom right title</>",
-                        "text": "<TextStyle.White>This text goes into the bottom right box</>"
-                    }
-                ]
-            }
-        ],
-        "links": [
-            {
-                "text": "Link to Wiki",
-                "url": "https://wiki.wbui2.de"
-            },
-            {
-                "text": "Link to discord",
-                "url": "https://discord.com/invite/K7NyrTV"
-            },
-            {
-                "text": "Link to google",
-                "url": "https://google.com"
-            }
-        ],
-        "version": 2
-    }
+	"WBUI2":
+	{
+		"settings":
+		{
+			"openbutton": 2,
+			"hideicon": true,
+			"hideiconafter": 60,
+			"iconurl": "https://imgur.com/a/9AKPBoF",
+			"disableicontext": false,
+			"iconposition": 3,
+			"icontextcolor": 0,
+			"openonstart": true,
+			"openonstartonlynewplayers": false,
+			"updateinterval": 0
+		},
+		"tabs": [
+			{
+				"layout": 1,
+				"buttontext": "Welcome",
+				"imageurl": "https://imgur.com/a/9AKPBoF",
+				"content": [
+					{
+						"title": "Welcome to JustArk PvP",
+						"text": "We appreciate you dropping in to check out our community server. This is a weekday ORP and weekend PvP server. \r\n\r\nWe do hope you enjoy the server setup and wish for you to have loads of fun on the server.\r\n\r\nPlayers will come and go as time progresses, chances are you will leave as well. Yet most do come back periodically till a stable community is formed.\r\n\r\nAn In-Game shop is availbale - please press F1 or X or Square for access.\r\n\r\nPlease be sure to join us on Discord."
+					}
+				]
+			},
+			{
+				"layout": 1,
+				"buttontext": "In Game Rules",
+				"imageurl": "",
+				"content": [
+					{
+						"title": "In Game Rules",
+						"text": "1 - Please do not wipe new players, allow newcomers to build up. \r\n\r\n2 -New players can contact server host for a 5 day Admin shield over their bases. New Players are not allowed to raid or provoke PvP during this time. A white flag at your base and the word Grace after your tribe-name also helps.\r\n \r\n -New Tribes breaking the rules related to their grace needs to be reported before action can be taken against them. \r\nA ticket is required in this instance.\r\n\r\n3 -Turret Tames and Rafts are allowed to be used in Raiding and defense instances. It cannot be used for open world PvP purposes.\r\n\r\n4 -Foundation wiping is only allowed if you wish to build in that location. The Aim is to fun-PvP as a form of  entertainment. Please do not allow yourselves to become Toxic over these matters.\r\n If you intend to Foundation wipe a tribe, Please discuss this with an Admin/Host beforehand.\r\n\r\n - No hacking or exploiting bugs.\r\nShould be self-explanatory. Don't use any sort of software that gives you an unfair advantage. Don't intentionally cause lag. Punishment can range from a temporary ban to a permanent ban. If your tribe is doing something legitimately that could be reasonably viewed as suspicious, you should make some attempt to record yourself in case you are reported. Suspicious enough actions can lead to a ban without video or photo proof.\r\n\r\n5 -No meshed structures or meshing of any kind\r\nDon't intentionally put structures inside the mesh, they are subject to removal. Intentionally going into the mesh is strictly prohibited and will be punished with a permanent ban.\r\n\r\n6 -Keep structure spam to a minimum, no excessive griefing\r\nYou can have spam around your own bases and any of your active FOBs, but don't spread it out too far. Excessive or pointless spam may be removed without warning.\r\n\r\n7 -No slurs or offensive content of any kind in tribe names, player names, tame names, or anywhere else\r\nTrying to bypass the name filter will result in an immediate permanent ban.\r\n\r\n8 -Don't take an excessive amount of base spots, keep it down to 1 cave per group\r\nYour tribe can have multiple bases, but only one can be in a cave or rathole. Claiming multiple caves may result in all of them being admin-wiped without warning.\r\n\r\n9 -You may only have turrets at your own base, or an active FOB.\r\nSpamming turrets around a base you aren't actively raiding could result in a temporary ban and deletion of turrets. You can protect teleporters with turrets as long as they aren't excessive.\r\n\r\n10 -Don't destroy/transfer loot (off server) while you are being raided.\r\n\r\n11 -Teaming is not allowed. Attacking an active Fob is allowed if unrelated to the defender. *Hot-swapping members is allowed* {6 man raids max}\r\n\r\n12 -Don't build turrets at spawn areas or structures on obelisks. Cave bases are allowed limited mesh turrets - defense. - not for firing through the mesh into your cave. **Consult Admin**.\r\nSpamming turrets on spawn beaches will result in their deletion and a potential temporary ban. Bases built on an obelisk, with or without turrets, will be subject to a complete admin-wipe.\r\n\r\n13 -Don't use more than 3 active soakers at a time.\r\n\r\n14 -Never inside your tribe.\r\n\r\n15 -No extreme toxicity, racism, or offensive discussions of any kind.\r\nKeep toxic discussion in ⁠🧂-salty-chat\r\n\r\n16 -Inactive FOBs can't be left up for more than 12 hours. No Stryders to be present during a raid.\r\n\r\n17 - Safe Havens are offered for Item and Dino storage only - No PvP at safe havens, No crafting in Safe Haven, No breeding in Safe Haven.\r\n\r\n 👀 Rules are subject to change, and administration has the final say in any situation.\r\nYou are fully responsible for your tribe. Associating with hackers or exploiters can still lead to a ban. \r\nIf you want to report another player or tribe, open a ticket in the ⁠💥-support channel. Include evidence, such as video or screenshots that demonstrate guilt. Faking evidence can lead to a ban."
+					}
+				]
+			},
+			{
+				"layout": 1,
+				"buttontext": "Admin Message",
+				"imageurl": "",
+				"content": [
+					{
+						"title": "New Title",
+						"text": "This is a light PvP server which hopefully results in some light PvP and lots of Ark.\r\n\r\n1 - This is for the most part a No Admin server ..so most player related interactive issues needs to be sorted between yourselves. Full PvP from Friday 18h00 UK time till Sunday 22h00 UK time. \r\n\r\n==>Admin team might on occasion join your tribe while performing duties, this is not meant as an offensive action.\r\n\r\n2 - Harassment will not be tolerated, this referring to behavior going beyond sporting PvP between players or tribes.\r\n\r\n3 - This is a pvp server, thus you will be raided and light banter will most likely occur. Please be moderate in your responses.\r\n\r\n4 - The server is set up so tribes or individuals can recover easily from a raid.\r\n\r\n5 - The server host is available should assistance be required, use this as a last resort if it is player related. \r\n\r\n6 - A kind request for attacking tribes to remove their spam/fob after a raid. \r\nOnce your tribe has given up on the raid, please clear the area of unnecessary spam.\r\nAlso .. do not wipe/raid new tribes, allow them some time to build up.\r\n\r\n7 - After raiding a tribe, please allow them some time to recover.\r\nNo continuous harassment once the raid is completed.\r\n\r\n8 - Each tribe will be allowed 1 Cave Base along with 1 Land base and 1 Ocean/Floating base. Thus 3 bases per will be allowed on 1 particular map of your choice. ( exceptions at Admin's Discretion)\r\n\r\n9 - Alpha Tribes can only retain Alpha on 1 map within the cluster. The 3 bases are allowed on the dominating map only.\r\nAlpha tribe cannot retain the 3 bases for each map.\r\n\r\nLimited Floating Builds are tolerated (consult an admin for advice) - Snapping to world border is not allowed.\r\n\r\nBlocking Vital Map Zones such as player spawns, dams, dens, ascension arenas, UW zones, etc.\r\n\r\nBase spots that require the use of a teleporter, tek punch, chair, zipline, knockout strat, peli, etc are not allowed this included bases exposed to the mesh, Once you can crawl, walk or crouch in it's fine.\r\n\r\nWhen building in unraidable spots, admins have the right to clear the unraidable part ie. after the barrier\r\n\r\nMesh defense is allowed however turrets(leave them on medium or low) is not to shoot through the mesh and no structures that do not pertain to defense are to be found in the mesh.\r\n \r\n10 - Building in ratholes requiring you to glitch into it, or use a grapple to get into is not allowed. \r\n\r\n 𝗥𝗲𝗴𝗮𝗿𝗱𝗶𝗻𝗴 𝗲𝘅𝘁𝗲𝗿𝗻𝗮𝗹 𝗰𝗹𝗶𝗲𝗻𝘁𝘀, 𝗘𝘅𝗽𝗹𝗼𝗶𝘁𝗶𝗻𝗴, 𝗚𝗹𝗶𝘁𝗰𝗵𝗲𝘀\r\nCheating(ESPing, Aimbotting, spoofing to list a few) are not allowed\r\n\r\nDuping is a bannable offence.\r\n\r\nAbusing any form of in game exploit/glitch not allowed.\r\n\r\n*Applicable to reports\r\n-When creating a report ensure you have a minimum of 3 valid clips, clips must contain the accused ingame name(s).\r\n\r\nApplicable to inis\r\n*If and when using an ini your are not permitted to use the \"cheats\" on those ini programs this can include but is not limited to\r\n*Speed hacks\r\n*Insta Turning\r\n*No recoil, etc\r\n\r\nIntentional lagging of the server this includes but is not limited to intentionally changing your tribe repeatedly, mass breeding, hatching, cloning, leaving and spamming excessive genes, trans, reppys, bubbles (20 or more) around the map.\r\n\r\nAbsolutely no ban evasion(coming back on alts, spoofers)\r\n\r\nNo out of game currency is to be traded or exchanged. This could result in a `Ban`.\r\n\r\nThreats of doxing, ddosing - Bannable offence.\r\n\r\n𝗜𝗻𝘀𝗶𝗱𝗶𝗻𝗴 𝗥𝘂𝗹𝗲𝘀\r\nInsiding is bannable (admin discretion) however no replacements will be made please note that we deal with actual insiding. We do not deal with inner tribe disputes ie Zorro stole my pt or i got kicked\r\n\r\n-Demoing a base\r\n-Switching genes off\r\n-Must be able to provide visual proof.\r\n\r\n==> Please note:- This rules section is a work in progress and issues will be added or removed as we go along."
+					}
+				]
+			},
+			{
+				"layout": 1,
+				"buttontext": "Drops",
+				"imageurl": "",
+				"content": [
+					{
+						"title": "Supply Drop Guide",
+						"text": "White Drops - Small Starter Base\r\n\r\nWhite Bonus - Cloth clothing and 1 Flak Armour\r\n\r\nGreen Drops - Kibbles/Consumables\r\n\r\nGreen Bonus - Player Consumables/Tonics\r\n\r\nBlue Drops -  Flak Armour and Shotgun\r\n\r\nBlue Bonus -  Weapons and Ammo\r\n\r\nPurple Drops - Artifacts and Tributes\r\n\r\nPurple Bonus - Late Game Saddles\r\n\r\nYellow Drops - Early Game saddles\r\n\r\nYellow Drops - Mid Game Saddles\r\n\r\nRed Drops - 1 Tek Armour and Tek Doors\r\n\r\nRed Bonus - 1 BP, 1 Platform saddle, 1 Scuba, 1 Tek saddle\r\n\r\nBeaver Dam - CP, Element, Silica Pearls, Black Pearl, Mushroom, Rare flower\r\n\r\nBroodmother Hard - Element, Trophy, Tek Armour\r\n\r\nMagapithecus Hard - Element, Trophy, Tek Armour\r\n\r\nDragon Hard - Element, Trophy, Tek Armour"
+					}
+				]
+			}
+		],
+		"links": [
+			{
+				"text": "Webshop",
+				"url": "https://justarkpvp.gameserverapp.net/"
+			},
+			{
+				"text": "Discord",
+				"url": "https://discord.gg/e9aqHMWh4t"
+			}
+		],
+		"version": 2
+	}
 }
