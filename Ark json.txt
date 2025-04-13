@@ -4,9 +4,9 @@
         "settings":
         {
             "openbutton": 3,
-            "hideicon": true,
-            "hideiconafter": 10,
-            "iconurl": "https://i.imgur.com/OZ6xOjY.png",
+            "hideicon": false,
+            "hideiconafter": 360,
+            "iconurl": "https://imgur.com/a/9AKPBoF.png",
             "disableicontext": false,
             "iconposition": 0,
             "icontextcolor": 0,
@@ -18,7 +18,7 @@
             {
                 "layout": 1,
                 "buttontext": "<RichColor Color=\"1,0,0,1\">1 Box layout</>",
-                "imageurl": "https://i.imgur.com/mGt3cAF.png",
+                "imageurl": "https://imgur.com/a/9AKPBoF.png",
                 "content": [
                     {
                         "title": "Welcome to WBUI2!",
